@@ -325,15 +325,27 @@ strong{
     margin: 30px;
     border-radius: 10px;
     padding: 20px;
-    cursor: pointer;
-    padding: 7px;
+    /* cursor: pointer; */
     /* font-weight: 900; */
 }
-
-.feature-box:hover{
-    padding-bottom: 10px;
-    
-}
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+.feature-box:hover {
+    animation: pulse 0.5s ease-in-out;
+  }
+/* .feature-box:hover{
+  margin-top: 20px;
+} */
 /* .feature-box img {
     padding-top:30px;
 } */
