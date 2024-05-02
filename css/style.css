@@ -268,9 +268,6 @@ h3{
 
 body{
     font-family: "Montserrat";
-    font-optical-sizing: auto;
-    
-
 }
 
 /* Navbar Section */
@@ -286,7 +283,7 @@ h1{
     color: #FFF;
 }
 .container{
-    padding: 3% 30%;
+    padding: 3% 50%;
 }
 .btn{
     margin-left:5rem;
@@ -300,11 +297,20 @@ h1{
 }
 li{
     border-radius: 10px;
-    color: #A3D8FF;
+    color: #A3D8FF ;
 }
 li:hover{
    color: #FDFFC2;
 }
 .nav-link{
+    color: #fcfdff;
+    font-family: "Montserrat";
+}
+
+
+h1{
+    color: #FFF;
+}
+.btn{
     color: #FFF;
 }
