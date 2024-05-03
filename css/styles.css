@@ -271,9 +271,31 @@ body{
 }
 
 /* Navbar Section */
-#title{
-    background-color: #A3D8FF;
+.nav-link {
+    color: #FFF !important; /* Your desired hover color */
+  }
+  /* Fix for navbar link color  */
+/* .navbar .nav-link {
+    color: inherit; /* Inherit color from parent element */
+  /* } */ */
+  
+.nav-link:hover {
+    color: #413E66 !important ; /* Your desired hover color */
+  }
+#title {
+  background-color: #a3d8ff;
+
 }
+
+.new-class{
+  background-color: #a3d8ff;
+
+    position: fixed; /* Add this line */
+    top: 0; /* Position the navbar at the top */
+    width: 100%; /* Make the navbar full width */
+    z-index: 10; /* Ensure the navbar stays on top of other elements */
+}
+
 
 h1{
     font-family: "Montserrat-Black";
@@ -292,7 +314,10 @@ h1{
 strong{
     color: #FDFFC2;
 }
+nav-link{
+    color: #FDFFC2;
 
+}
 .btn{
     margin: 0;
     margin-top: 20px;
@@ -311,6 +336,8 @@ strong{
 .nav nav-item{
     color: #FFF;
 }
+
+
 
 /* Feature Section */
 #features{
@@ -359,6 +386,7 @@ strong{
     margin-top: 8px;
     font-family: "Montserrat";
     font-size: 18px;
+    font-weight: 700;
 }
 
 .title-card:hover{
@@ -369,4 +397,87 @@ strong{
 
 .item{
     color: #F5F8FD;
+}
+
+
+
+
+/* About us Section */
+#about-us{
+    padding: 8% 24%;
+    background-color: #FFFFFF;
+}
+.box-about{
+    padding-top:30px ;
+}
+.box img{
+    margin-top:4rem;
+}
+/* .img-about{
+    margin: auto;
+    width: auto;
+    height: 200px;
+} */
+
+.about-h1{
+    font-family: "Montserrat";
+    font-weight: 800;
+    line-height: 1;
+
+    color: #413E66;
+}
+.about-h2{
+    line-height: 1.5;
+    font-family: "Montserrat";
+    color: #7C6A99;
+    margin-top:2rem;
+}
+.about-paragraph{
+    font-family: "Montserrat";
+    margin-top:2rem;
+
+
+}
+
+
+
+/* devis-section Section */
+
+#devis-section{
+    padding: 1% 24%;
+    font-family: "Montserrat";
+    color: #FFF;
+    margin: 0;
+    background-color: #2D2B46;
+    text-align: center;
+    line-height: 2;
+}
+
+.left-section{
+    text-align: start;
+}
+
+
+/* contact-us Section */
+#contact-us{
+    padding: 7% 24%;
+    font-family: "Montserrat";
+    margin: 10;
+    text-align: start;
+    line-height: 2;
+}
+
+.contact-form{
+    margin: 20px;
+    font-family: "Montserrat";
+
+}
+.h{
+    color: #000;
+    text-decoration: none;
+    font-family: "Montserrat";
+
+}
+.h:hover{
+    color: #FF76CE;
 }
