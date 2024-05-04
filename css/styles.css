@@ -2,20 +2,19 @@ body{
     font-family: "Montserrat";
 }
 
-/* Navbar Section */
+
 .nav-link {
-    /* color: #FFF !important; */
+   
     color: #000 !important;
     text-decoration: none;
     font-family: "Montserrat";
 
   }
 .nav-link.active {
-    color: #FF76CE !important; /* Your desired active color */
+    color: #FF76CE !important; 
 }
   
 .nav-link:hover {
-    /* color: #413E66;  */
     color: #FF76CE !important;
 
   }
@@ -67,8 +66,9 @@ nav-link{
 }
 .desc-btn2{
     padding-top:10rem ;
-    color: #FDFFC2;
-
+    color: #000000  !important;
+    font-family: "Montserrat";
+    font-weight: 600 !important;
 }
 
 .nav nav-item{
@@ -228,3 +228,40 @@ nav-link{
     font-family: "Montserrat";
     text-align: center;
 }
+
+
+/* Portfolio Section */
+
+#portfolio-section {
+    padding: 7% 30%;
+    text-align: center;
+    font-family: "Montserrat";
+}
+.img-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .img-shadow {
+    /* No changes needed here */
+  }
+  
+  .row:hover .img-shadow {
+    /* No changes needed here */
+  }
+  
+  .eye-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: transparent;  /* Initially transparent icon */
+    transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .row:hover .eye-icon {
+    opacity: 1;  /* Show icon on hover */
+    color: white;  /* Change icon color to white on hover */
+  }
+  
