@@ -79,7 +79,7 @@ nav-link{
 
 /* Feature Section */
 #features{
-    padding: 7% 20%;
+    padding: 7% 11%;
     background-color: #F5F8FD;
 }
 
@@ -182,7 +182,7 @@ nav-link{
 /* devis-section Section */
 
 #devis-section{
-    padding: 1% 24%;
+    padding: 1% 15%;
     font-family: "Montserrat";
     color: #FFF;
     margin: 0;
@@ -222,6 +222,161 @@ nav-link{
 }
 
 
+
+
+#portfolio-section {
+    padding: 7% 10%;
+    text-align: center;
+    font-family: "Montserrat";
+}
+/* .h1-portfolio{
+    color: #413E66;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.filter-portfolio{
+    margin: 30px;
+    color: #413E66;
+    text-decoration: none;
+}
+
+.filter-portfolio:hover{
+    color: #FF76CE;
+} */
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+/*  */
+
+/* End Portfolio */
+.img-container {
+    overflow: hidden;
+    position: relative;
+  }
+.eye-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: transparent;  
+    transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+.row:hover .eye-icon {
+    opacity: 1;  
+    color: white;  
+}
+.apps{
+    margin-top: 20px;
+}
+
+.filter-active,
+button[data-filter="*"]:hover {
+  background-color: #ddd; /* or your desired hover color */
+}
+
+button[data-filter="apps"]:focus ~ div:not([class*="apps"]) {
+  display:none;
+}
+
+button[data-filter="web"]:focus ~ div:not([class*="web"]) {
+  display:none;
+}
+
+button[data-filter="games"]:focus ~ div:not([class*="games"]) {
+  display:none;
+}
+
+.portfolio-image {
+    display: none; 
+}
+
+#portfolio.active .portfolio-image {
+    display: block;
+}
+
+.portfolio-image:hover {
+    opacity: 0.8; 
+}
+
+.col-lg-12.d-flex {
+    height: 100%; 
+}
+
+.portfolio-image {
+    display: none;
+  }
+  
+#portfolio.active .portfolio-image {
+    display: block;
+  }
+  
+.portfolio-image:hover {
+    opacity: 0.8;
+  }
+
+/* button[data-filter="apps"]:focus ~ div:not([class*="apps"]) {
+    display:none;
+  }
+  
+button[data-filter="web"]:focus ~ div:not([class*="web"]) {
+    display:none;
+  }
+  
+button[data-filter="games"]:focus ~ div:not([class*="games"]) {
+    display:none;
+  } */
 /* Footer Section */
 #footer-section{
     padding: 2% 4%;
@@ -230,38 +385,3 @@ nav-link{
 }
 
 
-/* Portfolio Section */
-
-#portfolio-section {
-    padding: 7% 30%;
-    text-align: center;
-    font-family: "Montserrat";
-}
-.img-container {
-    overflow: hidden;
-    position: relative;
-  }
-  
-  .img-shadow {
-    /* No changes needed here */
-  }
-  
-  .row:hover .img-shadow {
-    /* No changes needed here */
-  }
-  
-  .eye-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
-    color: transparent;  /* Initially transparent icon */
-    transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out;
-  }
-  
-  .row:hover .eye-icon {
-    opacity: 1;  /* Show icon on hover */
-    color: white;  /* Change icon color to white on hover */
-  }
-  
